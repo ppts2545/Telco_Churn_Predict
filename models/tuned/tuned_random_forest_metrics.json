@@ -1,0 +1,16 @@
+{
+  "Model": "RandomForestClassifier(optuna-tuned)",
+  "Accuracy": 0.8140525195173882,
+  "Precision": 0.7063197026022305,
+  "best_params": {
+    "n_estimators": 295,
+    "criterion": "entropy",
+    "max_depth": 14,
+    "min_samples_split": 31,
+    "min_samples_leaf": 14,
+    "max_features": "sqrt",
+    "max_samples": 0.7118933535103489
+  },
+  "cv_best_accuracy": 0.8422211756369883,
+  "n_trials": 50
+}
